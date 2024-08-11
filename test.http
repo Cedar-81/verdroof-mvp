@@ -1,0 +1,9 @@
+POST https://verdroof-web-next.vercel.app/api/sendEmail 
+Content-Type: application/json
+
+{
+    "email": "cedarwudnovels@gmail.com",
+    "email_data_html": "<h1>Hello</h1>",
+    "email_data_string": "Hello",
+    "subject": "Hello my good friend"
+}
